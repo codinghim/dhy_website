@@ -1,0 +1,17 @@
+.site-header {
+    background-color: #c7c6c6;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: rgba(0, 0, 0, .85);
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: rgba(0, 0, 0, .35);
+    text-decoration: none;
+  }
+.name {
+    color: rgba(0, 0, 0, .85);
+    text-align: center;
+}
