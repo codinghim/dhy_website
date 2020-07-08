@@ -6,7 +6,6 @@ class Navbar extends Component {
     render() { 
         return (
             <div>
-                
                 <nav className="site-header sticky-top py-1">
                     <h3 className="name">Daniel Himchan Yun</h3>
                     <div className="container d-flex flex-column flex-md-row align-items-center justify-content-between">

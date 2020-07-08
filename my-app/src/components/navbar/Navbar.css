@@ -2,9 +2,10 @@
     background-color: #c7c6c6;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+    white-space: nowrap;
   }
   .site-header a {
-    color: rgba(0, 0, 0, .85);
+    color: #000000d9;
     transition: ease-in-out color .15s;
   }
   .site-header a:hover {
@@ -12,6 +13,10 @@
     text-decoration: none;
   }
 .name {
+    /* display: inline; */
     color: rgba(0, 0, 0, .85);
     text-align: center;
+}
+.container{
+  /* display:inline; */
 }
