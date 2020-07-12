@@ -546,6 +546,10 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+#navbar-container{
+  background-color: rgba(39, 37, 49, 0.6);
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
