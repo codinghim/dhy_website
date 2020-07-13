@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Scrollspy from 'react-scrollspy';
 import {Link} from 'react-scroll';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
@@ -25,11 +26,15 @@ function App() {
                 </div>
             </div>
         </nav>
-        
+        {/* <Navbar></Navbar> */}
+    
         {/* <!-- Masthead--> */}
         <header className="masthead">
             <div className="container">
-                <div className="masthead-subheading">Daniel Himchan Yun</div>
+                <div className="subheading-container">
+                    <img src="https://github.com/codinghim/images/blob/master/%E3%85%87%E3%84%B1.jpg?raw=true" id="portrait" alt=""/>
+                    <div className="masthead-subheading">Daniel Himchan Yun </div>
+                </div>
                 <div className="masthead-heading text-uppercase">It's Nice To Meet You</div>
                 <Link className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" to="portfolio" smooth={true} duration={600}>Know about me more</Link>
             </div>
@@ -44,19 +49,59 @@ function App() {
                     <h2 className="section-heading text-uppercase">Portfolio</h2>
                     <h3 className="section-subheading text-muted">Knowledge and skills</h3>
                 </div>
-                {/* Portfolio Cards */}
+                {/* Portfolio Cards Row 1*/}
                 <div className="row">
+                    {/* Portfolio Cards 1-1*/}
                     <div className="col-lg-4 col-sm-6 mb-4">
                         <div className="portfolio-item">
-                            <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a className="portfolio-link" href="https://github.com/codinghim/team_white_hw1">
+                            {/* data-toggle="modal" href="#portfolioModal1"> */}
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fa fa-plus fa-3x"></i></div>
                                 </div>
-                                <img className="img-fluid" src="https://picsum.photos/200" alt="" />
+                                <img className="img-fluid" src="https://github.com/codinghim/images/blob/master/gameplay-thumbnail.png?raw=true" alt="" />
                             </a>
                             <div className="portfolio-caption">
                                 <div className="portfolio-caption-heading">Jotto</div>
                                 <div className="portfolio-caption-subheading text-muted">Minigame</div>
+                                <div className="portfolio-caption-subheading2 text-muted">March 2019</div>
+                                <div className="portfolio-caption-subheading text-muted">(Java, Spring, MongoDB, JavaScript, JQuery)</div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Portfolio Cards 1-2*/}
+                    <div className="col-lg-4 col-sm-6 mb-4">
+                        <div className="portfolio-item">
+                            <a className="portfolio-link" href="https://github.com/codinghim/team_white_thecomicverse">
+                            {/* data-toggle="modal" href="#portfolioModal1"> */}
+                                <div className="portfolio-hover">
+                                    <div className="portfolio-hover-content"><i className="fa fa-plus fa-3x"></i></div>
+                                </div>
+                                <img className="img-fluid" src="https://github.com/codinghim/images/blob/master/comic_thumbnail.jpg?raw=true" alt="" />
+                            </a>
+                            <div className="portfolio-caption">
+                                <div className="portfolio-caption-heading">The ComicVerse</div>
+                                <div className="portfolio-caption-subheading text-muted">Comic website</div>
+                                <div className="portfolio-caption-subheading2 text-muted">June 2019</div>
+                                <div className="portfolio-caption-subheading text-muted">(Java, Spring, MongoDB, JavaScript, JQuery)</div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Portfolio Cards 1-3*/}
+                    <div className="col-lg-4 col-sm-6 mb-4">
+                        <div className="portfolio-item">
+                            <a className="portfolio-link" href="https://github.com/codinghim/CSE363">
+                            {/* data-toggle="modal" href="#portfolioModal1"> */}
+                                <div className="portfolio-hover">
+                                    <div className="portfolio-hover-content"><i className="fa fa-plus fa-3x"></i></div>
+                                </div>
+                                <img className="img-fluid" src="https://github.com/codinghim/images/blob/master/cyber_security_thumbnail.jpg?raw=true" alt="" />
+                            </a>
+                            <div className="portfolio-caption">
+                                <div className="portfolio-caption-heading">Cyber Security Attacks</div>
+                                <div className="portfolio-caption-subheading text-muted">Sniffing, DNS poisoning, Password cracking, C&C</div>
+                                <div className="portfolio-caption-subheading2 text-muted">May 2020</div>
+                                <div className="portfolio-caption-subheading text-muted">(Python)</div>
                             </div>
                         </div>
                     </div>
