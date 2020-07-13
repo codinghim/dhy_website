@@ -119,7 +119,7 @@ function App() {
                 {/* Timeline-left */}
                 <ul className="timeline">
                     <li>
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="himjpg" alt="" /></div>
+                        <div className="timeline-image" id="nobackground"><img className="rounded-circle img-fluid" src="https://github.com/codinghim/images/blob/master/stony_logo.jpg?raw=true" alt="" /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>May 2020</h4>
@@ -130,7 +130,7 @@ function App() {
                     </li>
                     {/* Timeline-right */}
                     <li className="timeline-inverted">
-                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+                        <div className="timeline-image"><img className="rounded-circle img-fluid" src="https://github.com/StartBootstrap/startbootstrap-agency/blob/master/dist/assets/img/about/1.jpg?raw=true" alt="" /></div>
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>2020 -</h4>
