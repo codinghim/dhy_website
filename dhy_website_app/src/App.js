@@ -72,7 +72,7 @@ function App() {
                     {/* Portfolio Cards 1-2*/}
                     <div className="col-lg-4 col-sm-6 mb-4">
                         <div className="portfolio-item">
-                            <a className="portfolio-link" href="https://github.com/codinghim/team_white_thecomicverse">
+                            <a className="portfolio-link" href="https://github.com/codinghim/team_white_308_thecomicverse">
                             {/* data-toggle="modal" href="#portfolioModal1"> */}
                                 <div className="portfolio-hover">
                                     <div className="portfolio-hover-content"><i className="fa fa-plus fa-3x"></i></div>
