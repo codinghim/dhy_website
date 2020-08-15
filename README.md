@@ -1,4 +1,5 @@
 # dhy_website
 Daniel Himchan Yun's personal website
 
-hello
+Website can be found here:  
+https://codinghim.github.io/dhy_website/
